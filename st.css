@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica';
+    color: white
+}
+
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    width: 500px;
+    flex-direction: column;
+}
+#watch{
+    font-size: 5rem;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#start{
+    background: #5bc55b;
+}
+#pause{
+    background: gray;
+}
+#reset{
+    background: #bd7172;
+}
